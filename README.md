@@ -185,12 +185,12 @@ Deploy on Render or Streamlit Cloud for free hosting
 This project is licensed under the MIT License – feel free to use and modify with proper attribution.
 
 ## 📦 Requirements
-numpy
-pandas
-scikit-learn
-nltk
-streamlit
-requests
-fuzzywuzzy
-python-Levenshtein
-pickle-mixin
+- numpy
+- pandas
+- scikit-learn
+- nltk
+- streamlit
+- requests
+- fuzzywuzzy
+- python-Levenshtein
+- pickle-mixin
