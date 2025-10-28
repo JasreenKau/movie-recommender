@@ -172,10 +172,10 @@ Shows top 5 similar movies with posters, ratings, and overviews.
 
 
 ## 📈 Future Improvements
-Add hybrid filtering (content + collaborative)
-Integrate user rating predictions using deep learning
-Display trailers and release year filters
-Deploy on Render or Streamlit Cloud for free hosting
+- Add hybrid filtering (content + collaborative)
+- Integrate user rating predictions using deep learning
+- Display trailers and release year filters
+- Deploy on Render or Streamlit Cloud for free hosting
 
 ## 👩‍💻 Developer
 👩‍🎓 Jasreen 
