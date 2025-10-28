@@ -19,7 +19,7 @@ Built with **Python**, **Scikit-learn**, and **Streamlit**, it provides personal
 - [🔑 TMDB API Setup](#-tmdb-api-setup)  
 - [🧩 Example Output](#-example-output)  
 - [📈 Future Improvements](#-future-improvements)  
-- [👩‍💻 Developer Info](#-developer)
+- [👩‍💻 Developer](#-developer)  
 - [📝 License](#-license)  
 - [📦 Requirements](#-requirements)
 ---
@@ -158,16 +158,18 @@ API_KEY = "your_tmdb_api_key_here"
 ```
 
 ## 🧩 Example Output
-```markdown
-Input Movie: Batman Begins  
+Below are some snapshots of the Streamlit movie recommendation web app in action.
+### 🎬 Home Page
+Displays the search bar and movie input section.
+![Home Page](Images/Homepage.png)
 
-Top 5 Recommendations:
-1. The Dark Knight  
-2. The Dark Knight Rises  
-3. Man of Steel  
-4. Superman Returns  
-5. Batman v Superman: Dawn of Justice
-```
+### 🎞️ Recommendations Section
+Shows top 5 similar movies with posters, ratings, and overviews.
+![Movie Posters](Images/Recommendations1.png)
+
+
+![Movie Ratings and Reviews](Images/Recommendations2.png)
+
 
 ## 📈 Future Improvements
 Add hybrid filtering (content + collaborative)
@@ -175,7 +177,7 @@ Integrate user rating predictions using deep learning
 Display trailers and release year filters
 Deploy on Render or Streamlit Cloud for free hosting
 
-## 👩‍💻 Developer Info
+## 👩‍💻 Developer
 👩‍🎓 Jasreen 
 🎓 B.Tech – Electronics & Communication Engineering (AI Specialization)
 📊 Passionate about Data Analytics, NLP, and Software Engineering
