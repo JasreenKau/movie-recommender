@@ -8,6 +8,8 @@ from fuzzywuzzy import process
 import gdown
 import os, gdown, time, pickle, pandas as pd, streamlit as st
 
+st.set_page_config(page_title="Movie Recommender", layout="wide")
+
 # --- CONFIG & FILE DOWNLOAD ---
 files_to_download = {
     "tmdb_5000_credits.csv": "https://drive.google.com/uc?id=1a8A4To_2911TsIRv0dQQytpH6fpjgCJB",
@@ -117,8 +119,6 @@ except Exception as e:
     st.stop()
 
 # STREAMLIT PAGE SETUP
-
-st.set_page_config(page_title="Movie Recommender", layout="wide")
 st.markdown(
     """
     <style>
